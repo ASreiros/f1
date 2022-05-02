@@ -1,0 +1,54 @@
+body {
+  background-color: #808080;
+  padding: 0;
+  margin: 0;
+}
+body header {
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  height: 50px;
+}
+body header div {
+  border-right: rgba(255, 255, 255, 0.7) 1px solid;
+  font-size: 16px;
+  line-height: 50px;
+  text-align: center;
+  display: inline-block;
+}
+body header > div:nth-child(1) {
+  width: 285px;
+  text-align: right;
+  padding-right: 20px;
+}
+body header > div:nth-child(2) {
+  width: 90px;
+}
+body header > div:nth-child(3) {
+  width: 100px;
+}
+body header > div:nth-child(4) {
+  width: 90px;
+}
+body section {
+  width: calc(100% - 400px);
+  margin-top: 50px;
+  margin-left: 200px;
+}
+body section div {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+body section > div:nth-child(2) {
+  padding: 0;
+}
+body section > div:nth-child(2) > div {
+  display: inline-block;
+  width: 46%;
+}
+body section > div:nth-child(4) {
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=output.css.map */
